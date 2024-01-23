@@ -47,8 +47,6 @@
     </script>
   </head>
   <body class="manrope-font">
-
-  
     <!-- header section start -->
     <header class="lg:max-w-[1170px] w-full xl:px-0 px-5 mx-auto mt-4">
       <div class="flex justify-between items-center">
@@ -74,7 +72,7 @@
               </div>
               <ul
                 tabindex="0"
-                class="menu menu-sm dropdown-content  mt-3 z-[1] shadow bg-base-100 rounded-box text-black"
+                class="menu menu-sm dropdown-content mt-3 z-[1] shadow bg-base-100 rounded-box text-black"
               >
                 <li><a>Home</a></li>
                 <li><a>Portfolio</a></li>
@@ -140,83 +138,32 @@
     <main class="lg:max-w-[1170px] w-full xl:px-0 px-5 mx-auto">
       <!-- banner section start -->
 
-      <div class="carousel w-full">
-
-
+      <section class="carousel w-full mt-5">
+        <!-- second slide1 start-->
         <div id="slide1" class="carousel-item relative w-full">
-          <img src="img/111.png" class="w-full " />
-          <div class="absolute flex sm:justify-start  justify-center gap-5 transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide4" class="btn btn-circle">❮</a> 
-            <a href="#slide2" class="btn btn-circle">❯</a>
-          </div>
+          <div>
+            <div class="mb-5">
+              <img src="img/1.png" class="w-full rounded-2xl" />
+              <div
+                class="absolute flex sm:justify-start justify-center gap-5 transform -translate-y-1/2 left-5 right-5 sm:top-2/3 top-1/3"
+              >
+                <a
+                  href="#slide2"
+                  class="bg-gray-950 hover:bg-gray-800 duration-150 delay-150 w-9 h-9 text-white rounded-full px-3 py-1.5"
+                  >❮</a
+                >
+                <a
+                  href="#slide2"
+                  class="bg-gray-950 hover:bg-gray-800 duration-150 delay-150 w-9 h-9 text-white rounded-full px-3 py-1.5"
+                  >❯</a
+                >
+              </div>
+            </div>
 
-          <div class="bg-black md:p-7 p-4 absolute sm:right-10 right- sm:bottom-14 -bottom-32 z-50   rounded-2xl">
-            <h3 class="text-white md:text-xl text-base font-extrabold pb-2">
-              Meet all the heroes from the field
-            </h3>
-            <p
-              class="md:text-sm text-xs leading-6"
-              style="color: rgba(255, 255, 255, 0.6)"
-            >
-              Dit amet consectetur. Condimentum dignissim adipiscing aliquam
-              <span class="sm:block"
-                >turpis placerat dolor. Purus urna in sit nullam proin.
-              </span>
-            </p>
-          </div>
-
-
-
-        </div> 
-        <div id="slide2" class="carousel-item relative w-full">
-          <img src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg" class="w-full" />
-          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide1" class="btn btn-circle">❮</a> 
-            <a href="#slide3" class="btn btn-circle">❯</a>
-          </div>
-        </div> 
-        <div id="slide3" class="carousel-item relative w-full">
-          <img src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg" class="w-full" />
-          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide2" class="btn btn-circle">❮</a> 
-            <a href="#slide4" class="btn btn-circle">❯</a>
-          </div>
-        </div> 
-        <div id="slide4" class="carousel-item relative w-full">
-          <img src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" class="w-full" />
-          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide3" class="btn btn-circle">❮</a> 
-            <a href="#slide1" class="btn btn-circle">❯</a>
-          </div>
-        </div>
-      </div>
-
-
-         
-       
-    
-      <!-- <section class="mt-6">
-        <div class="carousel w-full">
-          <div id="slide1" class="carousel-item relative w-full">
-            <img  src="img/1.png" class="w-full rounded-2xl" />
-          <div class="flex justify-center items-center">
             <div
-            class="absolute flex items-center gap-5 sm:left-10 left-40    bottom-14"
-          >
-            <a
-              href="#slide2"
-              class="bg-gray-950 hover:bg-gray-800 duration-150 delay-150 w-9 h-9 text-white rounded-full px-3 py-1.5"
-              >❮</a
+              class="bg-black md:p-7 p-4 sm:absolute sm:right-10 right- sm:bottom-14 -bottom-32 z-50 rounded-2xl"
             >
-            <a
-              href="#slide2"
-              class="bg-gray-950 hover:bg-gray-800 duration-150 delay-150 w-9 h-9 text-white rounded-full px-3 py-1.5"
-              >❯</a
-            >
-          </div>
-          </div>
-            <div class="bg-black md:p-7 p-4 absolute sm:right-10 right- sm:bottom-14 -bottom-36   rounded-2xl">
-              <h3 class="text-white md:text-xl text-base font-extrabold pb-2">
+              <h3 class="text-white md:text-base text-sm font-extrabold pb-2">
                 Meet all the heroes from the field
               </h3>
               <p
@@ -230,50 +177,55 @@
               </p>
             </div>
           </div>
-          <div id="slide2" class="carousel-item relative w-full">
-            <img src="img/111.png" class="w-full rounded-2xl" />
-            <div
-              class="absolute flex items-center gap-5 left-10 right-5 bottom-14"
-            >
-              <a
-                href="#slide1"
-                class="bg-gray-950 hover:bg-gray-800 duration-150 delay-150 w-9 h-9 text-white rounded-full px-3 py-1.5"
-                >❮</a
+        </div>
+        <!-- second slide1 end-->
+
+        <!-- second slide2 start -->
+        <div id="slide2" class="carousel-item relative w-full">
+          <div>
+            <div class="mb-5">
+              <img src="img/111.png" class="w-full rounded-2xl" />
+              <div
+                class="absolute flex sm:justify-start justify-center gap-5 transform -translate-y-1/2 left-5 right-5 sm:top-2/3 top-1/3"
               >
-              <a
-                href="#slide1"
-                class="bg-gray-950 hover:bg-gray-800 duration-150 delay-150 w-9 h-9 text-white rounded-full px-3 py-1.5"
-                >❯</a
-              >
+                <a
+                  href="#slide1"
+                  class="bg-gray-950 hover:bg-gray-800 duration-150 delay-150 w-9 h-9 text-white rounded-full px-3 py-1.5"
+                  >❮</a
+                >
+                <a
+                  href="#slide1"
+                  class="bg-gray-950 hover:bg-gray-800 duration-150 delay-150 w-9 h-9 text-white rounded-full px-3 py-1.5"
+                  >❯</a
+                >
+              </div>
             </div>
-            <div class="bg-black p-7 absolute right-10 bottom-14 rounded-2xl z-20">
-              <h3 class="text-white text-xl font-extrabold pb-2">
+
+            <div
+              class="bg-black md:p-7 p-4 sm:absolute sm:right-10 right- sm:bottom-14 -bottom-32 z-50 rounded-2xl"
+            >
+              <h3 class="text-white md:text-base text-sm font-extrabold pb-2">
                 Meet all the heroes from the field
               </h3>
               <p
-                class="text-sm leading-6"
+                class="md:text-sm text-xs leading-6"
                 style="color: rgba(255, 255, 255, 0.6)"
               >
                 Dit amet consectetur. Condimentum dignissim adipiscing aliquam
-                <span class="block"
+                <span class="sm:block"
                   >turpis placerat dolor. Purus urna in sit nullam proin.
                 </span>
               </p>
             </div>
           </div>
-      
-         
         </div>
-      </section> -->
-
-    
-
-   
+        <!-- second slide2 end -->
+      </section>
       <!-- banner section end -->
 
       <!-- Professional Hockeys Club start -->
 
-      <section class="my-16 z-10">
+      <section class="mb-16 mt-8 z-10">
         <div class="text-center">
           <h1
             class="lg:text-3xl sm:text-2xl text-xl font-extrabold sm:mb-3.5 mb-2"
@@ -423,7 +375,7 @@
       <!-- Professional Hockeys Club end -->
 
       <!-- Program Sections start -->
-      <section class="my-16">
+      <section class="sm:my-16 my-10">
         <div class="text-center">
           <h1
             class="lg:text-3xl sm:text-2xl text-xl font-extrabold sm:mb-3.5 mb-2"
@@ -437,7 +389,7 @@
           </p>
         </div>
 
-        <div class="grid md:grid-cols-2 grid-cols-1 mt-14 gap-6">
+        <div class="grid md:grid-cols-2 grid-cols-1 sm:mt-14 mt-10 gap-6">
           <div
             class="sm:h-80 h-60 bg-cover w-full bg-center col-span-1 rounded-2xl relative"
             style="background-image: url('img/2.png')"
@@ -455,7 +407,7 @@
                   amet nunc morbi nulla. Tortor congue sed et in.
                 </p>
                 <button
-                  class="bg-primaryRed hover:bg-red-500 duration-200 delay-150 text-white text-lg font-bold lg:py-2 py-1.5 lg:px-5 px-4 rounded-lg"
+                  class="bg-primaryRed hover:bg-red-500 duration-200 delay-150 text-white sm:text-lg text-base font-bold lg:py-2 py-1.5 lg:px-5 px-4 rounded-lg"
                 >
                   Register Now!
                 </button>
@@ -479,7 +431,7 @@
                   amet nunc morbi nulla. Tortor congue sed et in.
                 </p>
                 <button
-                  class="bg-primaryRed hover:bg-red-500 duration-200 delay-150 text-white text-lg font-bold lg:py-2 py-1.5 lg:px-5 px-4 rounded-lg"
+                  class="bg-primaryRed hover:bg-red-500 duration-200 delay-150 text-white sm:text-lg text-base font-bold lg:py-2 py-1.5 lg:px-5 px-4 rounded-lg"
                 >
                   Register Now!
                 </button>
@@ -508,7 +460,7 @@
                   amet nunc morbi nulla. Tortor congue sed et in.
                 </p>
                 <button
-                  class="bg-primaryRed hover:bg-red-500 duration-200 delay-150 text-white text-lg font-bold lg:py-2 py-1.5 lg:px-5 px-4 rounded-lg"
+                  class="bg-primaryRed hover:bg-red-500 duration-200 delay-150 text-white sm:text-lg text-base font-bold lg:py-2 py-1.5 lg:px-5 px-4 rounded-lg"
                 >
                   Register Now!
                 </button>
@@ -520,7 +472,7 @@
       <!-- Program Sections end -->
 
       <!-- Our New Products start -->
-      <section class="my-16">
+      <section class="sm:my-16 my-10">
         <div class="text-center">
           <h1
             class="lg:text-3xl sm:text-2xl text-xl font-extrabold sm:mb-3.5 mb-2"
@@ -534,7 +486,7 @@
           </p>
         </div>
 
-        <div class="grid sm:grid-cols-2 gap-6 mt-16">
+        <div class="grid sm:grid-cols-2 gap-6 sm:mt-16 mt-10">
           <div class="border rounded-2xl drop-shadow-sm p-6">
             <div class="flex lg:flex-row flex-col gap-5 sm:items-center">
               <img
@@ -805,51 +757,12 @@
               </div>
             </div>
           </div>
-          <!-- <div class="border rounded-2xl drop-shadow-sm p-6">
-            <div class="flex gap-5 items-center">
-              <img src="img/5.png" alt="" />
-              <div class="flex flex-col gap-3.5">
-                <div class="flex items-center gap-2">
-                  <i
-                    class="fa-solid fa-star text-orange-400 cursor-pointer"
-                  ></i>
-
-                  <p>5.0</p>
-
-                  <i class="fa-regular fa-eye cursor-pointer"></i>
-
-                  <p>20</p>
-
-                  <i class="fa-regular fa-heart cursor-pointer"></i>
-
-                  <p>200</p>
-                </div>
-                <div>
-                  <h3 class="text-xl font-extrabold mb-2">
-                    World Cup Flags Football
-                  </h3>
-                  <p class="opacity-70 font-medium">
-                    Dolor sit amet consectetur. Ut urna diam quis sagittis.
-                  </p>
-                </div>
-                <div class="flex items-center gap-3">
-                  <h4 class="text-primaryRed text-lg font-extrabold">
-                    Price - $22.00
-                  </h4>
-                  <i
-                    class="fa-solid fa-cart-shopping text-gray-400 text-lg"
-                  ></i>
-                  <p class="opacity-70 font-medium">Delivery Fee : Free</p>
-                </div>
-              </div>
-            </div>
-          </div> -->
         </div>
       </section>
       <!-- Our New Products end -->
 
       <!-- Clients Question start -->
-      <section class="my-16">
+      <section class="sm:my-16 my-10">
         <div class="text-center">
           <h1
             class="lg:text-3xl sm:text-2xl text-xl font-extrabold sm:mb-3.5 mb-2"
@@ -863,7 +776,7 @@
           </p>
         </div>
         <div
-          class="drop-shadow-sm border rounded-2xl p-5 bg-white flex md:flex-row flex-col gap-7 mt-16"
+          class="drop-shadow-sm border rounded-2xl p-5 bg-white flex md:flex-row flex-col gap-7 sm:mt-16 mt-10"
         >
           <img
             class="sm:h-[420px] h-80 md:w-[50%] w-full"
@@ -971,7 +884,7 @@
 
       <!-- Get In Touch start -->
 
-      <section class="my-16">
+      <section class="sm:my-16 my-10">
         <div class="text-center">
           <h1
             class="lg:text-3xl sm:text-2xl text-xl font-extrabold sm:mb-3.5 mb-2"
@@ -985,7 +898,9 @@
           </p>
         </div>
 
-        <div class="flex md:flex-row flex-col gap-10 my-16 md:items-center">
+        <div
+          class="flex md:flex-row flex-col gap-10 sm:my-16 my-10 md:items-center"
+        >
           <div
             class="space-y-5 drop-shadow-sm border bg-white p-8 rounded-2xl md:w-[40%]"
           >
@@ -1033,7 +948,7 @@
             </div>
           </div>
           <div class="md:w-[60%]">
-            <div class="grid md:grid-cols-2 grid-cols-1 gap-8">
+            <div class="grid md:grid-cols-2 grid-cols-1 sm:gap-8 gap-6">
               <div class="flex flex-col gap-3 w-full lg:col-span-1 col-span-2">
                 <label class="text-[#131318] font-bold text-lg" for="name">
                   Your Name
@@ -1092,7 +1007,7 @@
               </div>
               <div class="w-full col-span-2">
                 <button
-                  class="bg-primaryRed hover:bg-red-500 duration-200 delay-150 w-full py-3 rounded-xl text-white text-lg font-bold"
+                  class="bg-primaryRed hover:bg-red-500 duration-200 delay-150 w-full py-3 rounded-xl text-white sm:text-lg text-base font-bold"
                 >
                   Send Message
                 </button>
@@ -1123,13 +1038,13 @@
       <!-- Get In Touch end -->
     </main>
     <!-- footer section start -->
-    <footer class="bg-[#131318] py-20">
+    <footer class="bg-[#131318] sm:py-20 py-14">
       <div class="lg:max-w-[1170px] w-full xl:px-0 px-5 mx-auto">
         <div class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-16">
           <div
             class="space-y-6 col-span-2 sm:col-span-1 flex flex-col sm:items-start items-center justify-center sm:text-start text-center sm:px-0 px-8"
           >
-            <h2 class="text-white sm:text-2xl text-xl font-extrabold">
+            <h2 class="text-white sm:text-xl text-base font-extrabold">
               Get In Touch
             </h2>
             <p
@@ -1160,7 +1075,7 @@
           </div>
 
           <div class="space-y-6 sm:text-start text-center">
-            <h2 class="text-white sm:text-2xl text-xl font-extrabold">
+            <h2 class="text-white sm:text-xl text-base font-extrabold">
               Company
             </h2>
             <ul
@@ -1176,7 +1091,7 @@
           </div>
 
           <div class="space-y-6 sm:text-start text-center">
-            <h2 class="text-white sm:text-2xl text-xl font-extrabold">
+            <h2 class="text-white sm:text-xl text-base font-extrabold">
               Support
             </h2>
             <ul
@@ -1193,7 +1108,7 @@
           <div
             class="space-y-6 sm:col-span-1 col-span-2 sm:text-start text-center"
           >
-            <h2 class="text-white sm:text-2xl text-xl font-extrabold">
+            <h2 class="text-white sm:text-xl text-base font-extrabold">
               Services
             </h2>
             <ul
